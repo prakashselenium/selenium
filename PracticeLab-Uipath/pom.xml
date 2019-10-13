@@ -3,7 +3,7 @@
   <groupId>PracticeLab</groupId>
   <artifactId>PracticeLab-Uipath</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <dependencies>
+  	<dependencies>
 		<dependency>
 			<groupId>com.aventstack</groupId>
 			<artifactId>extentreports</artifactId>
