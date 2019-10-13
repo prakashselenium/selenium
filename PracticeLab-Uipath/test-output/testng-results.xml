@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="14024" started-at="2019-10-12T14:54:35Z" finished-at="2019-10-12T14:54:49Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="14024" started-at="2019-10-12T14:54:35Z" finished-at="2019-10-12T14:54:49Z">
+      <class name="com.test.testcase.VendorSearch">
+        <test-method status="PASS" signature="setData()[pri:0, instance:com.test.testcase.VendorSearch@9838eb]" name="setData" is-config="true" duration-ms="16" started-at="2019-10-12T14:54:35Z" finished-at="2019-10-12T14:54:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="startApp(java.lang.String)[pri:0, instance:com.test.testcase.VendorSearch@9838eb]" name="startApp" is-config="true" duration-ms="5710" started-at="2019-10-12T14:54:36Z" finished-at="2019-10-12T14:54:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://acme-test.uipath.com/account/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApp -->
+        <test-method status="PASS" signature="validateVendorSearch(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.test.testcase.VendorSearch@9838eb]" name="validateVendorSearch" duration-ms="7527" started-at="2019-10-12T14:54:41Z" data-provider="fetchdata" finished-at="2019-10-12T14:54:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kumar.testleaf@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[leaf@12]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Blue Lagoon]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateVendorSearch -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.test.testcase.VendorSearch@9838eb]" name="closeApp" is-config="true" duration-ms="165" started-at="2019-10-12T14:54:49Z" finished-at="2019-10-12T14:54:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.test.testcase.VendorSearch -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
